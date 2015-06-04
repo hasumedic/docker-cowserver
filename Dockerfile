@@ -10,4 +10,4 @@ WORKDIR /usr/src/app
 
 RUN bundle install
 
-CMD ["ruby","app.rb"]
+CMD ["ruby","src/app.rb"]
